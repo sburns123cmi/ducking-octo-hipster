@@ -2,6 +2,9 @@ Archispec::Application.routes.draw do
   
 
   
+  resources :speakers
+
+
   devise_for :admins
 
 mount RailsAdmin::Engine => '/admin', :as => 'rails_admin' # Feel free to change '/admin' to any namespace you need.
