@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  description: MyString
+  producer_name: MyString
+  producer_title: MyString
+  producer_email: MyString
+
+two:
+  title: MyString
+  description: MyString
+  producer_name: MyString
+  producer_title: MyString
+  producer_email: MyString

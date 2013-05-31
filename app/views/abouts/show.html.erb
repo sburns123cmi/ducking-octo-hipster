@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @about.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @about.description %>
+</p>
+
+<p>
+  <b>Producer name:</b>
+  <%= @about.producer_name %>
+</p>
+
+<p>
+  <b>Producer title:</b>
+  <%= @about.producer_title %>
+</p>
+
+<p>
+  <b>Producer email:</b>
+  <%= @about.producer_email %>
+</p>
+
+
+<%= link_to 'Edit', edit_about_path(@about) %> |
+<%= link_to 'Back', abouts_path %>

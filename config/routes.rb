@@ -2,6 +2,21 @@ Archispec::Application.routes.draw do
   
 
   
+  resources :abouts
+
+
+  resources :videos
+
+
+  resources :locations
+
+
+  resources :suppliers
+
+
+  resources :programs
+
+
   resources :speakers
 
 
